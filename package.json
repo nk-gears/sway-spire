@@ -1,0 +1,17 @@
+{
+  "name": "sway-spire-app",
+  "version": "1.0.0",
+  "description": "Sway Spire App Monorepo",
+  "main": " ",
+  "author": "Nirmal",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "sed -i '' 's/followSymlinks: false/followSymlinks: true/g' node_modules/watchpack/lib/DirectoryWatcher.js"
+  },
+  "workspaces": [
+    "app",
+    "design",
+    "api"
+  ]
+}
