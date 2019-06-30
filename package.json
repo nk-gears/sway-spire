@@ -13,5 +13,10 @@
     "app",
     "design",
     "api"
-  ]
+  ],
+  "dependencies": {
+    "antd": "^3.19.8",
+    "botstrap": "^0.20.1",
+    "shards-ui": "^2.1.2"
+  }
 }

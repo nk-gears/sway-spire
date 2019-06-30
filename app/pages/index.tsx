@@ -3,7 +3,7 @@ import { NextStatelessComponent } from "next";
 import Link from "next/link";
 import { Models } from "@sway-spire/api/server";
 import { apiClient } from "@sway-spire/api/client";
-import { Layout } from "@sway-spire/design/components";
+import { DefaultLayout } from "@sway-spire/design/layouts/default";
 
 interface Props {
   posts: Models.Post[];
@@ -11,8 +11,8 @@ interface Props {
 
 const BlogIndex: NextStatelessComponent<Props> = ({ posts }) => {
   return (
-    <Layout>
-      <h1> Next + Typescript + Style Components + GraphQL</h1>
+    <DefaultLayout>
+      <h1> Next + Typescript + Styled Components + GraphQL</h1>
       <ul>
         {posts.map(post => (
           <li key={post.id}>
@@ -22,7 +22,7 @@ const BlogIndex: NextStatelessComponent<Props> = ({ posts }) => {
           </li>
         ))}
       </ul>
-    </Layout>
+    </DefaultLayout>
   );
 };
 

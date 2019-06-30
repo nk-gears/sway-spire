@@ -7,3 +7,9 @@ Technical Stack
 - GraphQL
 - Database :
 
+Mono Repository
+
+api - for api calls
+app - NextJS App
+design - to organize react components
+
