@@ -3,11 +3,11 @@ WORK IN PROGRESS
 
 Technical Stack
 
-- Next + TypeScript + Yarn monorepo
+- Next + TypeScript
 - GraphQL
-- Database :
+- Database :MongoDB
 
-Mono Repository
+Mono Repository  via Yarn Workspaces
 
 api - for api calls
 app - NextJS App
